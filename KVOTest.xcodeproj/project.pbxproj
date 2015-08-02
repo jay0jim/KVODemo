@@ -14,6 +14,7 @@
 		EABCC1141B6E438A0096435D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABCC1131B6E438A0096435D /* Images.xcassets */; };
 		EABCC1171B6E438A0096435D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EABCC1151B6E438A0096435D /* LaunchScreen.xib */; };
 		EABCC1231B6E438A0096435D /* KVOTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCC1221B6E438A0096435D /* KVOTestTests.m */; };
+		EABCC12E1B6E450E0096435D /* StockData.m in Sources */ = {isa = PBXBuildFile; fileRef = EABCC12D1B6E450E0096435D /* StockData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		EABCC11C1B6E438A0096435D /* KVOTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVOTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABCC1211B6E438A0096435D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EABCC1221B6E438A0096435D /* KVOTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOTestTests.m; sourceTree = "<group>"; };
+		EABCC12C1B6E450E0096435D /* StockData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockData.h; sourceTree = "<group>"; };
+		EABCC12D1B6E450E0096435D /* StockData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				EABCC1101B6E438A0096435D /* Main.storyboard */,
 				EABCC1131B6E438A0096435D /* Images.xcassets */,
 				EABCC1151B6E438A0096435D /* LaunchScreen.xib */,
+				EABCC12C1B6E450E0096435D /* StockData.h */,
+				EABCC12D1B6E450E0096435D /* StockData.m */,
 				EABCC1061B6E438A0096435D /* Supporting Files */,
 			);
 			path = KVOTest;
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EABCC12E1B6E450E0096435D /* StockData.m in Sources */,
 				EABCC10F1B6E438A0096435D /* ViewController.m in Sources */,
 				EABCC10C1B6E438A0096435D /* AppDelegate.m in Sources */,
 				EABCC1091B6E438A0096435D /* main.m in Sources */,
